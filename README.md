@@ -1,4 +1,4 @@
-# Lapides_Manga_2019
+# Woody debris as a primary control on the width of spring-fed streams: Datasets and Supplementary Material
 Stream width vs. wood length and wood orientation data for spring-fed streams in western US
 
 This repo hosts a Jupyter notebook which contains aggregated data in the form of a python dictionary about the characteristics of 
