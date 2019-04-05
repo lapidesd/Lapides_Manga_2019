@@ -15,7 +15,6 @@ spring-fed streams in the Western United States. Streams included in the data ar
 	Elk Springs Creek, ID
   
 	Lucky Dog Creek, ID
-  
 	
 	Reservation Spring, OR
   
@@ -66,6 +65,18 @@ spring-fed streams in the Western United States. Streams included in the data ar
 	Maramec Springs, MO
   
 	Silver Creek, ID
+	
+	Quinn River, OR
+	
+	Blue Heart Springs, ID
+	
+	Tucker Bay Spring, MO
+	
+	Lost Creek, OR
+	
+	Rio Salado, Chile
+	
+	Stream 0, Chile
   
 	Crystal Castle Cr, OR
   
@@ -74,6 +85,14 @@ spring-fed streams in the Western United States. Streams included in the data ar
 	Cultus Creek, OR
   
 	Moose Creek, ID
+	
+	Boulder Creek, OR
+	
+	Quaking Aspen Canyon, AZ
+	
+	Merritt Draw, AZ
+	
+	Buck Springs Canyon, AZ
 	
 Data are included as follows:
 
@@ -90,9 +109,9 @@ Data are included as follows:
   
 	info_source: keyword to identify source of discharge information, full citations below
   
-	temp: average annual temperature at that location as measured by NOAA, full citation below
+	temp: average annual temperature at that location as measured by NOAA, except El Tatio sites for which data come from a weather station, full citation below
   
-	MAP: mean annual precipitation at that location as measured by NOAA, full citation below
+	MAP: mean annual precipitation at that location as measured by NOAA, except El Tatio sites for which data come from a weather station, full citation below
   
 	snow: mean annual snowfall at that location as measured by NOAA, full citation below
   
@@ -100,6 +119,13 @@ Data are included as follows:
   
 	wood_hist: difference in orientation from downstream direction measured up to 90 degrees since it is
               not possible to distinguish reliably between ends of LWD in Google Earth Pro
+	      
+	woodperlen: number of single pieces of wood per stream segment length, measured via Google Earth Pro
+	
+	logjamperlen: number of logjams per stream segment length, measured via Google Earth Pro
+	
+	basin_area: watershed area feeding the stream gauge, info sources match discharge info source except Maramec Springs (from Vandike, 1996), Deer Creek (from USGS), and Fall River (from Manga, 1996)
+	
               
 Additional Data Sources:
 
@@ -114,11 +140,27 @@ Griffiths, R. E., Anderson, D. E., and Springer, A. E. (2008). The morphology an
 
 Hygelund, B. N. (2002). Geomorphic and Hydraulic Effects of Large Woody Debris: Insights from Spring-Dominated Streams 
   in the Oregon Cascades (Master's Thesis). U. of Oregon.
+  
+Jefferson, A., Grant, G. E., Lewis, S. L., and Lancaster, S. T. (2010). Coevolution of hydrology and topography on a basalt 
+  landscape in the Oregon Cascade Range, USA. Earth Surface Processes and Landforms. 35, 803-816.
+  
+Kull, C., Grosjean, M. (2000). "Late Pleistocene climate conditions in the north Chilean Andes drawn from a climate–glacier 
+  model". Journal of Glaciology. 46 (155): 622–632.
+
+Manga, M. (1996). Hydrology of spring-dominated streams in the Oregon Cascades. Water Resources Research, 32(8), 2435-2439.
 
 Maramec Spring Park [Web log post]. Retreived September 13, 2018, from \\http://www.maramecspringpark.com/.
 
+Munoz-Saez, C., Manga, M., and Hurwitz, S (2018). Hydrothermal discharge from the El Tatio basin, Atacama, Chile. 
+  Journal of Volcanology and Geothermal Research, 361, 25-35.
+
 U.S. Geological Survey (2018). National Water Information System data available on the World Wide Web 
   (Surface-Water Data for the Nation). Accessed Sept. 13, 2018, at http://waterdata.esgs.gov/nwis.
+  
+Vandike, J. E. (1996). The Hydrology of Maramec Spring. Missouri Department of Natural Resources, Division of 
+  Geology and Land Survey, Water Resources Report Number 55.
 
 Whiting, P. J., and Moog, D. B. (2001). The geometric, sedimentologic and hydrologic attributes of spring-dominated 
   channels in volcanic areas. Geomorphology, 39(3-4), 131-149.
+  
+Wilkerson Jr., T. F. (2003). Current River Watershed Inventory and Assessment. Missouri Department of Conservation.
