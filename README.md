@@ -4,13 +4,15 @@ Stream width vs. wood length and wood orientation data for spring-fed streams in
 This repo hosts a Jupyter notebook which contains aggregated data in the form of a python dictionary about the characteristics of 
 spring-fed streams in the Western United States. Streams included in the data are:
   
+  	Spring-fed streams:
+	
 	Big Springs, ID
   
 	Buffalo River, ID
   
 	Chick Creek, ID
   
-	Deschutes River, OR
+	*Deschutes River, OR
   
 	Elk Springs Creek, ID
   
@@ -22,7 +24,7 @@ spring-fed streams in the Western United States. Streams included in the data ar
   
 	Toms Creek, ID
   
-	Cultus River, OR
+	*Cultus River, OR
   
 	Browns Creek, OR
   
@@ -42,9 +44,7 @@ spring-fed streams in the Western United States. Streams included in the data ar
   
 	Black Sands Creek, MT
   
-	Hat Creek, CA
-  
-	McCloud River,CA
+	*Hat Creek, CA
   
 	Lost Creek, CA
   
@@ -60,11 +60,11 @@ spring-fed streams in the Western United States. Streams included in the data ar
   
 	West Pinchot Spring, AZ
   
-	Big Springs, MO
+	*Big Springs, MO
   
 	Maramec Springs, MO
   
-	Silver Creek, ID
+	*Silver Creek, ID
 	
 	Quinn River, OR
 	
@@ -72,27 +72,55 @@ spring-fed streams in the Western United States. Streams included in the data ar
 	
 	Tucker Bay Spring, MO
 	
-	Lost Creek, OR
+	*Lost Creek, OR
 	
 	Rio Salado, Chile
 	
 	Stream 0, Chile
+	
+	
+	
+	Runoff-fed streams:
   
 	Crystal Castle Cr, OR
   
 	Deer Creek, OR
   
-	Cultus Creek, OR
+	*Cultus Creek, OR
   
 	Moose Creek, ID
 	
-	Boulder Creek, OR
+	*Boulder Creek, OR
 	
 	Quaking Aspen Canyon, AZ
 	
 	Merritt Draw, AZ
 	
 	Buck Springs Canyon, AZ
+	
+	*Hills Creek, OR
+	
+	*Little Deschutes River, OR
+	
+	*South Fork McKenzie River, OR
+	
+	*Bourbeuse River, MO
+	
+	*Current River, MO
+	
+	*Huzzah Creek, MO
+	
+	*Little Piney Creek, MO
+	
+	*Meramec River, MO
+	
+	*Fall River, ID
+	
+	*Henry's Fork, ID
+	
+	*Robinson Creek, ID
+	
+	*McCloud River,CA
 	
 Data are included as follows:
 
@@ -105,7 +133,7 @@ Data are included as follows:
   
 	wood_length: length of about 10 pieces of large woody debris found in or near the channel
   
-	discharge: discharge level measured by the author specified in info_source
+	discharge: discharge level measured by the author specified in info_source. All discharge values are bankfull except those for streams marked by a star. Those streams have estimated bankfull discharges. For spring-fed streams, the estimate is mean discharge since mean discharge is very close to bankfull discharge. For runoff-fed streams, the estimate is 1.25 year flow.
   
 	info_source: keyword to identify source of discharge information, full citations below
   
