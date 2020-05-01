@@ -1,6 +1,8 @@
 # Large Wood as a Confounding Factor in Interpreting the Width of Spring-Fed Streams: Datasets and Supplementary Material
 Stream width vs. wood length and wood orientation data for spring-fed streams in western US
 
+[![DOI](https://zenodo.org/badge/164133590.svg)](https://zenodo.org/badge/latestdoi/164133590)
+
 This repo hosts a Jupyter notebook which contains aggregated data in the form of a python dictionary about the characteristics of 
 spring-fed streams in the Western United States. Streams included in the data are:
   
